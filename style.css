@@ -304,3 +304,120 @@ flex-wrap: wrap;
     text-align: center;
     padding: 10px;
 }
+
+/* Media Queries */
+
+@media (max-width: 991px)
+{
+    header,
+    header.sticky
+     {
+        padding: 20px 50px;
+    }
+     
+    .menu {
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #ffffff;
+        transition: 0.5s;
+        z-index: 99;
+        border-top: 1px solid rgba(0,0,0,0.2);
+    }
+
+    .menu.active{
+        left: 0;
+
+    }
+
+    header ul li a {
+        color: #111111;
+        font-size: 24px;
+        margin: 10px;
+    }
+    .toggle {
+        width: 40px;
+        height: 40px;
+        background: url('./assets/menu.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+    .toggle.active {
+        background: url('./assets/close.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        cursor: pointer;
+    }
+    header.sticky .toggle {
+        filter: invert(1);
+    }
+    section {
+        padding: 100px 50px;
+    }
+    .banner {
+        padding: 150px 50px 100px;
+    }
+    .banner h2 {
+        font-size: 1.5em;
+    }
+    .banner h3 {
+        font-size: 1em;
+    }
+    .button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .heading h2 {
+        font-size: 24px;
+    }
+
+    .contentBox h3 {
+        font-size: 20px;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .content img{
+        width: 100%;
+    }
+    .w50 {
+        margin-bottom: 20px;
+    }
+
+    .services .content .serviceBox {
+        margin: 10px;
+    }
+    .work .content .projectBox {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .contactInfo {
+        margin: 20px 0;
+    }
+
+}
+
+@media (max-width: 600px) {
+    header,
+    header.sticky
+     {
+        padding: 20px 20px;
+    }
+    .banner {
+        padding: 150px 20px 100px;
+    }
+    section {
+        padding:  100px 20px;
+    }
+}
