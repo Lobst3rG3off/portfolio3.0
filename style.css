@@ -47,7 +47,7 @@ color: #ffffff;
 font-weight: 500;
 }
 
-button{
+.button{
     position: relative;
     background: #2196f3;
     display: inline-block;
@@ -58,10 +58,6 @@ button{
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: 500;
-
-}
-
-button a{
     text-decoration: none;
     color: #ffffff;
 }
@@ -94,6 +90,10 @@ header .logo {
     text-decoration: none;
 }
 
+header.sticky .logo{
+    color: #111111;
+}
+
 header ul{
     position: relative;
     display: flex;
@@ -111,6 +111,11 @@ header ul li a{
     color: #ffffff;
     text-decoration: none;
 }
+
+header.sticky ul li a{
+    color: #111111;
+}
+
 
 .heading{
     width: 100%;
