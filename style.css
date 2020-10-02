@@ -179,3 +179,13 @@ img{
 .services .content .serviceBox:hover{
     background: #2196f3;
 }
+
+.services .content .serviceBox img {
+    max-width: 80px;
+    filter: invert(1)    ;
+}
+
+.services .content .serviceBox h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
