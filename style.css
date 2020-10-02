@@ -76,6 +76,13 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky{
+    background: #ffffff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
 header .logo {
@@ -122,6 +129,10 @@ header ul li a{
     justify-content: space-between;
 }
 
+.contentBox {
+    padding-right: 50px;
+}
+
 .contentBox h3{
     font-size: 24px;
     margin-bottom: 10px;
@@ -133,4 +144,6 @@ header ul li a{
 img{
     max-width: 100%;
 }
+
+
 
