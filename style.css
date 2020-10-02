@@ -1,0 +1,106 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section
+{
+    padding: 100px ;
+}
+
+.banner
+{
+position: relative;
+min-height: 100vh;
+background: url('./assets/banner.jpg');
+background-size: cover;
+background-position: right;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.banner h2
+{
+font-size: 3em;
+color: #ffffff;
+font-weight: 500;
+line-height: 1.5em;
+}
+
+.banner h2 span
+{
+font-size: 1.5em;
+font-weight: 700;
+}
+
+.banner h3
+{
+font-size: 1.5em;
+color: #ffffff;
+font-weight: 500;
+}
+
+button{
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+}
+
+button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
