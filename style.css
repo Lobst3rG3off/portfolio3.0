@@ -12,6 +12,10 @@ section
 {
     padding: 100px ;
 }
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 .banner
 {
@@ -203,4 +207,88 @@ flex-wrap: wrap;
 
 .work .content .projectBox img {
     max-width: 100%;
+}
+
+.contact {
+    background: #111111;
+}
+.formBox{
+    min-width: 60%;
+}
+
+.formBox form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formBox form h3,
+.contactInfo h3 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.formBox form input,
+.formBox form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #222222;
+    color: #ffffff;
+    resize: none;
+}
+
+.formBox form textarea {
+    min-height: 200px;
+}
+
+.formBox form input::placeholder,
+.formBox form textarea::placeholder {
+    color: #999999;
+}
+
+.formBox form input[type="submit"] {
+    max-width: 100px;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contactInfo{
+    min-width: 40%;
+}
+
+.contactInfoBox{
+    position: relative;
+}
+
+.contactInfoBox .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contactInfoBox .box .icon {
+    min-width: 40px;
+    padding-top: 4px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.contactInfoBox .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #ffffff;
+    flex-direction: column;
+    font-weight: 300;
+    text-decoration: none;
 }
