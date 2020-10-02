@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 section
@@ -279,7 +280,7 @@ flex-wrap: wrap;
     color: #ffffff;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     font-size: 24px;
 }
 
@@ -290,5 +291,16 @@ flex-wrap: wrap;
     color: #ffffff;
     flex-direction: column;
     font-weight: 300;
-    text-decoration: none;
+}
+
+.contactInfoBox .box .text h3 {
+    font-weight: 500;
+    color: #2196f3;
+}
+
+.copyright{
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
 }

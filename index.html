@@ -7,6 +7,7 @@
     <script src="https://use.fontawesome.com/f374bebff7.js"></script>
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap">
+    <link rel="shortcut icon" type="image/x-icon" target='_blank' href="./favicon.ico">
     <title>Geoff Grossman</title>
 </head>
 <body>
@@ -14,21 +15,21 @@
         <a href="#" class="logo">Portfolio</a>
         <div class="toggle"></div>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>   
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>   
         </ul>
     </header>
-    <section class="banner">
+    <section class="banner" id="home">
         <div class="textBox">
             <h2>Hi, I'm <br><span> Geoff Grossman.</span></h2>
             <h3>I am A Front End Developer.</h3>
-                <a href="#" class="button">About me</a>
+                <a href="#about" class="button">About me</a>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="heading">
             <h2>About Me</h2>
         </div>
@@ -49,7 +50,7 @@
             
         </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
         <div class="heading white">
             <h2>Services</h2>
             <p>Here's A List of Services I Can Provide.<br> For Specific Services Please Contact Me Directly.</p>
@@ -88,7 +89,7 @@
                 </div>
        
     </section>
-    <section class="work">
+    <section class="work" id="projects">
         <div class="heading">
             <h2>Projects</h2>
             <p>Here's some projects that I've been working on.</p>
@@ -111,7 +112,7 @@
             <a href="#" class="button">View More</a>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="heading">
             <h2>Contact</h2>
             <p>Here is how you can contact me</p>
@@ -150,7 +151,7 @@
                 </div>
             </div>
             <div class="formBox">
-                <form  action="">
+                <form   action="https://formspree.io/lobstergeoff@gmail.com" method="POST">
                     <h3>Message Me</h3>
                     <input type="text" name="" placeholder="Full Name">
                     <input type="text" name="" placeholder="Email">
@@ -160,6 +161,9 @@
             </div>
         </div>
     </section>
+    <div class="copyright">
+        <p>Copyright© 2020 LobsterD3V All Right Reserved</p>
+    </div>
     
     <script type="text/javascript">
     window.addEventListener('scroll', function(){
