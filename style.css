@@ -151,4 +151,31 @@ img{
 }
 
 
+.services{
+    background: #111111;
+}
 
+.heading.white{
+    color: #ffffff;
+}
+
+.services .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.services .content .serviceBox{
+    padding: 40px 20px;
+    background #222;
+    color: #ffffff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;    
+}
+
+.services .content .serviceBox:hover{
+    background: #2196f3;
+}
