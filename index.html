@@ -177,6 +177,24 @@
         menuToggle.classList.toggle('active')
         menu.classList.toggle('active')
     }
+
+    modalOuter.addEventListener('click', function (event) {
+    const isOutside = !event.target.closest('.modal-inner');
+    console.log(isOutside);
+    if (isOutside) {
+        closeModal();
+    }
+});
+
+window.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+        closeModal();
+    }
+});
+
+window.addEventListener('touchstart', e => {
+      closeModal();
+});
     </script>
 </body>
 </html>
