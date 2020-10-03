@@ -210,6 +210,10 @@ flex-wrap: wrap;
     max-width: 100%;
 }
 
+.skillIcons {
+    text-align: center;
+}
+
 .modal-outer {
     display: grid;
     background: hsla(207, 90%, 54%, 0.7);

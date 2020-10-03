@@ -95,21 +95,77 @@
             <p>Here's some projects that I've been working on.</p>
         </div>
         <div class="content">
-            <div class="projectBox">
-                <img src='./assets/product1.jpg'>
+            <div class="projectBox project">
+                <h3>Auto-Complete</h3>
+                <p>A 90's themed Auto-Complete Application</p>
+                <figcaption> Group project: A REST API app using React.JS
+                </figcaption>
+                <div class="imageBox">
+                        <img src="./assets/scrabblegenies.github.io_autocomplete_ (1).png"
+                            alt="Autocomplete React project Screenshot">
+                </div>
+                <div class="skillIcons">
+                    <a class="button projectButton" target='_blank'
+                        href="https://scrabblegenies.github.io/autocomplete/">See it Live</a>
+                    <a class="button projectButton" target='_blank'
+                        href="https://github.com/scrabblegenies/autocomplete">GitHub</a>
+                </div>
             </div>
-            <div class="projectBox">
-                <img src='./assets/product2.jpg'>
+            <div class="projectBox project">
+                <h3>Quote of the Day</h3>
+                <p>A Click of the Button and an Affirmation Appears! </p>
+                <figcaption> Displays a random quote from an API using Javascript and jQuery</figcaption>
+                <div class="imageBox">
+                        <img
+                            src="./assets/_C__Users_hells_Desktop_HackerYou_Bootcamp_projects_portfolio_quotePage.html.png ">
+                </div>
+                <div class="skillIcons">
+                    <a class="button projectButton" target='_blank' href="./quotePage.html">See it Live</a>
+                    <a class="button projectButton" target='_blank'
+                        href="https://github.com/Lobst3rG3off/JSProject2">GitHub</a>
+                </div>
             </div>
-            <div class="projectBox">
-                <img src='./assets/product3.jpg'>
+            <div class="projectBox project">
+                <h3>Movie Suggestifier</h3>
+                <p>A Movie Selector Application</p>
+
+                <figcaption> A paired programming website using jQuery to call an API and append the results to the
+                    DOM
+                </figcaption>
+                <div class="imageBox">
+                        <img src="./assets/2jeffs.github.io_movieMachine_ (1) (1) (1).png"
+                            alt="A screenshot of the Movie Chooseriser website">
+                </div>
+
+                <div class="skillIcons">
+                    <a class="button projectButton" target='_blank' href="https://2jeffs.github.io/movieMachine/">See it
+                        Live</a>
+                    <a class="button projectButton" target='_blank'
+                        href="https://github.com/2jeffs/movieMachine">GitHub</a>
+                </div>
             </div>
-            <div class="projectBox">
-                <img src='./assets/product4.jpg'>
+            <div class="projectBox project">
+                <h3>Snake Game</h3>
+                <p>The Classic Game of Snake </p>
+                <figcaption> Remastering of the Classic Snake Game in Vanilla JS</figcaption>
+                <div class="imageBox">
+                        <img
+                            src="./assets/_C__Users_hells_Desktop_HackerYou_Bootcamp_projects_portfolio_quotePage.html.png ">
+                </div>
+                <div class="skillIcons">
+                    <a class="button projectButton" target='_blank' href="./projects/snakePage/index.html">See it Live</a>
+                    <a class="button projectButton" target='_blank'
+                        href="https://github.com/Lobst3rG3off/Snake">GitHub</a>
+                </div>
             </div>
         </div>
         <div class="heading">
-            <a href="#" class="button">View More</a>
+            <a href="https://github.com/Lobst3rG3off" class="button">View More</a>
+        </div>
+        <div class="modal-outer">
+            <div class="modal-inner">
+                <p>Testing 123</p>
+            </div>
         </div>
     </section>
     <section class="contact" id="contact">
@@ -165,36 +221,8 @@
         <p>Copyright© 2020 LobsterD3V</p>
     </div>
     
-    <script type="text/javascript">
-    window.addEventListener('scroll', function(){
-        const header = document.querySelector('header');
-        header.classList.toggle('sticky',window.scrollY > 0)
-    });
-
-    function toggleMenu(){
-        const menuToggle = document.querySelector('.toggle');
-        const menu = document.querySelector('.menu');
-        menuToggle.classList.toggle('active')
-        menu.classList.toggle('active')
-    }
-
-    modalOuter.addEventListener('click', function (event) {
-    const isOutside = !event.target.closest('.modal-inner');
-    console.log(isOutside);
-    if (isOutside) {
-        closeModal();
-    }
-});
-
-window.addEventListener('keydown', e => {
-    if (e.key === 'Escape') {
-        closeModal();
-    }
-});
-
-window.addEventListener('touchstart', e => {
-      closeModal();
-});
-    </script>
+    <script src="app.js"></script>
+    
+    
 </body>
 </html>
