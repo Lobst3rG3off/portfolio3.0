@@ -10,7 +10,7 @@ const gameBoard = document.getElementById('game-board');
 function main(currentTime) {
 
     if (gameOver){
-        if (confirm('You Lose! Hit OK to Play Again!')) {
+        if (confirm('You Lose! Hit OK to Go Back!')) {
             window.location = '/'
         }
         return
