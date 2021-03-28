@@ -10,7 +10,7 @@ rainbowApp.arrayIsCorrect = () =>
 rainbowApp.genRandom = () => {
   const orderedRainbow = [
     { color: "red", fontColor: "black" },
-    { color: "orange", fontColor: "black" },
+    { color: "orange", fontColor: "green" },
     { color: "yellow", fontColor: "black" },
     { color: "green", fontColor: "white" },
     { color: "blue", fontColor: "white" },
